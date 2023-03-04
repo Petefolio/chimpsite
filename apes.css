@@ -1,0 +1,283 @@
+.Apeprofile {
+    transition: all 1s linear;
+}
+
+.Apeprofile:hover {
+    transform: rotate(360deg);
+
+}
+
+nav {
+    background-color: cadetblue;
+    color: brown;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    grid-area:top;
+    font-size: 150%;
+}
+
+nav a {
+    padding: 1.5rem ;
+    border: 2px brown;
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited, nav a:active {
+    color: brown;
+    background-color: white;
+    border: 1px brown;
+    transition: background-color 0.2s;
+
+}
+
+nav a:hover {
+    background-color: yellowgreen;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#chimpbanner {
+    margin: auto;
+    width: 100%;
+    background-image: url(chimpus.jpg);
+    padding-top: 120px;
+    padding-bottom:170px;
+    font-size: 65px;
+}
+
+strong {
+    color:white;
+    background-color: brown;
+
+}
+
+em {
+    color: white;
+    background-color: brown;
+    font-size: 35px;
+}
+
+#Homepageheader {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    text-align:center;
+    color: brown;
+    padding: 1em 1em;
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+
+.kokomain {
+    padding-top: 20px;
+    background-color: white;
+    grid-area: middle;
+    padding-bottom: 40px;
+    font-size: 75%;
+    border: 2px brown;
+    padding: 1em 1em;
+    border-radius: 16px;
+    border: 1px solid brown;
+
+}
+
+.kokobody {
+    display: grid;
+    grid-template-columns:  1fr 3fr 1fr;
+    grid-template-areas:"top top top"
+                        "middleleft middle middleright"
+                        "bottomleft bottom bottomright"
+
+}
+
+#bannerapemobile, .Bannertime  {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#bannerapemobile {
+    display: block !important;
+    margin: auto;
+    width: 50%;
+  }
+
+#Apebanner {
+    display: none !important;
+    display: block;
+  }
+
+#apenav {
+    
+        background-color: cadetblue;
+        color: brown;
+        padding: 2rem;
+        width: 100%;
+        text-align: center;
+        grid-area:top;
+        font-size: 150%;
+    }
+    
+    nav a {
+        padding: 1.5rem ;
+        border: 2px brown;
+        text-decoration: none;
+    }
+    
+    nav a:link, nav a:visited, nav a:active {
+        color: brown;
+        background-color: white;
+        border: 1px brown;
+        transition: background-color 0.2s;
+    
+    }
+    
+    nav a:hover {
+        background-color: yellowgreen;
+    
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+figcaption {
+    text-align: center;
+    color: brown;
+}
+
+#chimpconclusion p {
+    text-align: center;
+    color: brown;
+}
+
+.apepictures1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+    color: brown;
+    padding: 0.5 em, 0.5 em;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+h2 {
+    color: brown;
+    text-align: center;
+}
+
+.apeh2 {
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+main {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+main > p {
+    text-align: left;
+
+}
+.ape1-3 {
+    margin: 1em;
+    border: 1px solid brown;
+    border-radius: 16px;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    text-align: left;
+    
+}
+#ape1-3 img {
+    float:right;
+    shape-outside: url("");
+
+}
+#verdict2 {
+    margin: 1em;
+    border: 1px solid brown;
+    border-radius: 16px;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+#Apebannermobile {
+    display: none;
+}
+@media screen and (min-width: 700px){
+footer {
+    color: brown;
+    background-color:cadetblue;
+    padding: 1em 1em;
+    width: 100%;
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    left: 0;
+    grid-area: bottom;
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    left: 0;
+}
+#apenav {
+    background-color: cadetblue;
+    color: brown;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    grid-area:top;
+    font-size: 100%;
+}
+nav {
+    background-color: cadetblue;
+    color: brown;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    grid-area:top;
+    font-size: 100%;
+}
+@media screen and (min-width: 850px){
+    #chimpcolumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    #bannerapemobile {
+        display: none !important;
+      }
+    
+    #Apebanner {
+        display: inline !important;
+      }
+
+    #Communication {
+        color: white;
+    }
+    .kokoBODY {
+        font-size: 100%;
+    }
+    .apepictures1:hover {
+        transform: scale(1.3);
+    }
+}
+}
